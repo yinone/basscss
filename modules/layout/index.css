@@ -6,9 +6,15 @@
 .table        { display: table }
 .table-cell   { display: table-cell }
 
-.overflow-hidden { overflow: hidden }
-.overflow-scroll { overflow: scroll }
-.overflow-auto   { overflow: auto }
+.overflow-hidden   { overflow: hidden }
+.overflow-scroll   { overflow: scroll }
+.overflow-auto     { overflow: auto }
+.overflow-x-hidden { overflow: hidden }
+.overflow-x-scroll { overflow: scroll }
+.overflow-x-auto   { overflow: auto }
+.overflow-y-hidden { overflow: hidden }
+.overflow-y-scroll { overflow: scroll }
+.overflow-y-auto   { overflow: auto }
 
 .clearfix:before,
 .clearfix:after {
@@ -17,8 +23,8 @@
 }
 .clearfix:after { clear: both }
 
-.left  { float: left }
-.right { float: right }
+.pull-left  { float: left }
+.pull-right { float: right }
 
 .fit { max-width: 100% }
 
